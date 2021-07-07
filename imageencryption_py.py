@@ -104,9 +104,9 @@ for i in range(0,row):
      C2=power(g,key,N)
      C3=power(b,key,N)
      enc[i][j]=[C1,C2,C3]
-     C1=C1%192
-     C2=C2%192
-     C3=C3%192
+     C1=C1%256
+     C2=C2%256
+     C3=C3%256
      inputImage[i,j]=[C1,C2,C3]
 
 cv2_imshow(inputImage)
