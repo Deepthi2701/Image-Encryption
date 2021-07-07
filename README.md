@@ -1,10 +1,14 @@
   # Image-Encryption
 
 **Encryption** is the process which uses a finite set of instructions called algorithm to convert original message known as plaintext, into _cipher text_ which is its encrypted form. 
+
           The Cryptographic algorithms require a set of characters called _key_ to encrypt or decrypt data. Using this key and the algorithm we can encrypt or decrypt the plain text into cipher text and vice versa.
-          **Image encryption** can be defined in such a way that it _is the process of encoding secret image with the help of some encryption algorithm in such a way that unauthorized users can't access it_.Image and video encryption have applications in various fields including internet communication, multimedia systems, medical imaging, Tele-medicine and military communication.
-           There are two types of encryption in widespread use today: **symmetric and asymmetric** **encryption**. The name derives from whether or not the same key is used for encryption and decryption.
-             _**Symmetric encryption**_ is a form of computerized cryptography using a singular encryption key to guise an electronic message. Its data conversion uses a mathematical algorithm along with a secret key, which results in the inability to make sense out of a message.            
+
+  **Image encryption** can be defined in such a way that it _is the process of encoding secret image with the help of some encryption algorithm in such a way that unauthorized users can't access it_.Image and video encryption have applications in various fields including internet communication, multimedia systems, medical imaging, Tele-medicine and military communication.
+  
+  There are two types of encryption in widespread use today: **symmetric and asymmetric** **encryption**. The name derives from whether or not the same key is used for encryption and decryption.
+  
+  _**Symmetric encryption**_ is a form of computerized cryptography using a singular encryption key to guise an electronic message. Its data conversion uses a mathematical algorithm along with a secret key, which results in the inability to make sense out of a message.            
     _**Asymmetric Encryption**_, also known as Public-Key Cryptography, is an example of one type. Unlike “normal” (symmetric) encryption, Asymmetric Encryption encrypts and decrypts the data using two separate yet mathematically connected cryptographic keys. These keys are known as a 'Public Key' and a 'Private Key.Asymmetric cryptography offers better security because it uses two different keys -- a public key which only gets used to encrypt messages, making it safe for anyone to have, and a private key to decrypt messages that never needs to be shared. Examples of Asymmetric encryption include Diffie-Hellman Key Exchange(DF), ECC, RSA 
 
   **RSA (cryptosystem) :** 
