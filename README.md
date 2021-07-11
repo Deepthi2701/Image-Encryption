@@ -11,6 +11,8 @@
 RSA (Rivest–Shamir–Adleman) is a public-key cryptosystem that is widely used for secure data transmission.
     In a public-key cryptosystem, the encryption key is public and distinct from the decryption key, which is kept secret (private). An RSA user creates and publishes a public key based on two large prime numbers, along with an auxiliary value. The prime numbers are kept secret. Messages can be encrypted by anyone, via the public key, but can only be decoded by someone who knows the prime numbers.
     
+**IMAGE-**
+![download](https://user-images.githubusercontent.com/62015323/125187803-0a6ad780-e24f-11eb-9fdd-16b5eba8a857.png)
 
 **Algorithm :**
 The RSA algorithm holds the following features −
@@ -28,4 +30,7 @@ The RSA algorithm involves six steps. They are as follows :
 4)  **Private Key**
     Private Key d is calculated from the numbers p, q and e. The mathematical relationship between the       numbers is as follows − ed = 1 mod (p-1) (q-1) , The above formula is the basic formula for Extended     Euclidean Algorithm, which takes p and q as the input parameters.
 5)  **Encryption Formula**
-6)  **Decryption Formula**    
+6)  ![encryptedImage](https://user-images.githubusercontent.com/62015323/125188146-59653c80-e250-11eb-879b-a38fae149a0d.png)
+
+7)  **Decryption Formula**    
+8)  ![decryptedImage](https://user-images.githubusercontent.com/62015323/125188159-64b86800-e250-11eb-9715-84b46f4111da.png)
