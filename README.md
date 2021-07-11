@@ -34,14 +34,14 @@ The RSA algorithm involves six steps. They are as follows :
 4)  **Private Key**
     Private Key d is calculated from the numbers p, q and e. The mathematical relationship between the       numbers is as follows − ed = 1 mod (p-1) (q-1) , The above formula is the basic formula for Extended     Euclidean Algorithm, which takes p and q as the input parameters.
 5)  **Encryption Formula**
-To encrypt a plaintext M using an RSA public key we simply represent the plaintext as a number between 0 and N-1 and then compute the ciphertext C as:
+To encrypt a plaintext or an image M using an RSA public key we simply represent the plaintext as a number between 0 and N-1 and then compute the ciphertext C as:
 
     C = Me mod N.
 The encrypted image is given below
 ![encryptedImage](https://user-images.githubusercontent.com/62015323/125188146-59653c80-e250-11eb-879b-a38fae149a0d.png)
 
 6)  **Decryption Formula**   
-To decrypt a ciphertext C using an RSA public key we simply compute the plaintext M as:
+To decrypt a ciphertext or an image C using an RSA public key we simply compute the plaintext M as:
 M = Cd mod N. 
 The decrypted image is given below
 ![decryptedImage](https://user-images.githubusercontent.com/62015323/125188159-64b86800-e250-11eb-9715-84b46f4111da.png)
